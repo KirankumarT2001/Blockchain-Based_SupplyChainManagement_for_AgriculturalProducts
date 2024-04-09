@@ -7,7 +7,7 @@ export const products = [
     price: 20.99,
     description:
       "This is product A. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    category: "Electronics",
+    category: "Grains",
     quantity: 50,
     image: "images/wheat.jpeg",
   },
@@ -17,7 +17,7 @@ export const products = [
     price: 15.49,
     description:
       "This is product B. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "Clothing",
+    category: "Grains",
     quantity: 30,
     image: "images/corn.jpeg  ",
   },
@@ -27,7 +27,7 @@ export const products = [
     price: 30.0,
     description:
       "This is product C. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    category: "Home & Kitchen",
+    category: "Grains",
     quantity: 20,
     image: "images/flaxseeds.jpeg   ",
   },
@@ -37,7 +37,7 @@ export const products = [
     price: 25.99,
     description:
       "This is product D. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    category: "Beauty",
+    category:"Grains",
     quantity: 40,
     image: "images/soyabean.jpeg",
   },
@@ -47,7 +47,7 @@ export const products = [
     price: 10.0,
     description:
       "This is product E. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    category: "Books",
+    category: "Grains",
     quantity: 60,
     image: "images/beans.avif  ",
   },
@@ -57,7 +57,7 @@ export const products = [
     price: 55.49,
     description:
       "This is product F. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
-    category: "Electronics",
+    category: "",
     quantity: 25,
     image:"images/sunflowerseeds.jpeg    ",
   },
@@ -67,7 +67,7 @@ export const products = [
     price: 12.99,
     description:
       "This is product G. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-    category: "Toys & Games",
+    category:"",
     quantity: 70,
     image:"images/cahsus.jpg",
   },
@@ -77,7 +77,7 @@ export const products = [
     price: 18.75,
     description:
       "This is product H. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.",
-    category: "Clothing",
+    category: "",
     quantity: 35,
     image:"",
   },
@@ -87,7 +87,7 @@ export const products = [
     price: 40.99,
     description:
       "This is product I. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.",
-    category: "Home & Kitchen",
+    category: "",
     quantity: 15,
     image:"",
   },
@@ -97,7 +97,7 @@ export const products = [
     price: 28.0,
     description:
       "This is product J. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-    category: "Electronics",
+    category: "",
     quantity: 45,
   },
   {
@@ -106,7 +106,7 @@ export const products = [
     price: 33.49,
     description:
       "This is product K. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
-    category: "Beauty",
+    category: "",
     quantity: 55,
   },
   {
@@ -115,7 +115,7 @@ export const products = [
     price: 22.0,
     description:
       "This is product L. Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-    category: "Books",
+    category: "",
     quantity: 50,
   },
   {
@@ -124,7 +124,7 @@ export const products = [
     price: 14.99,
     description:
       "This is product M. Et harum quidem rerum facilis est et expedita distinctio.",
-    category: "Toys & Games",
+    category: "",
     quantity: 65,
   },
   {
@@ -133,7 +133,7 @@ export const products = [
     price: 26.5,
     description:
       "This is product N. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-    category: "Clothing",
+    category: "",
     quantity: 40,
   },
   {
@@ -142,7 +142,7 @@ export const products = [
     price: 19.99,
     description:
       "This is product O. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.",
-    category: "Home & Kitchen",
+    category: "",
     quantity: 30,
   },
 ];
