@@ -75,7 +75,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      <Timeline id={productId} />
+      <Timeline id={productId} delivery={false} />
       <Footer />
     </div>
   );
