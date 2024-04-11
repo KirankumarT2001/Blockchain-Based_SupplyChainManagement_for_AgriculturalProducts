@@ -7,7 +7,7 @@ const Timeline = ({ id, delivery }) => {
   return (
     <>
       <div className="h-auto w-full flex flex-col place-items-center bg-[#D8F3DC] p-4">
-        <div className="text-center text-5xl font-bold p-6">TIMELINE</div>
+        <div className="text-center text-5xl font-bold p-6 underline  mt-8">TRACK YOUR PRODUCT</div>
         <div className="p-5 w-3/4 flex justify-center items-center">
           <div className="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
             {/* <!-- Stack 1 --> */}
@@ -156,6 +156,7 @@ const Timeline = ({ id, delivery }) => {
             {delivery && (
               <>
                 <div className="col-span-4 w-full h-full"></div>
+                
                 <div className="relative col-span-1 w-full h-full flex justify-center items-center">
                   <div className="h-1/2 self-start w-1 bg-indigo-300"></div>
                   <div className="w-1/2 right-0  h-1 bg-indigo-300 absolute"></div>

@@ -45,7 +45,7 @@ const ProductDetail = () => {
               className="bg-cover h-full w-full"
             />
           </div>
-          <div className="flex flex-col gap-2 justify-center p-4">
+          <div className="flex flex-col gap-2 justify-center p-6 bg-gray-50 rounded-xl">
             <div className="font-bold text-2xl">{product.name}</div>
             <div>
               <div className="font-medium">Description</div>
@@ -64,18 +64,22 @@ const ProductDetail = () => {
               <div className="font-medium">{product.quantity} </div>
               <div>items available</div>
             </div>
-            
-                <Button
-                  className="hover:bg-blue-400"
-                  onClick={() => handleAddToCart(product)}
-                >
-                  Add to Cart
-                </Button>
-              
+
+            <Button
+              className="hover:bg-blue-400"
+              onClick={() => handleAddToCart(product)}
+            >
+              Add to Cart
+            </Button>
           </div>
         </div>
       </div>
-      <Timeline id={productId} delivery={false} />
+      
+      <div class="divide-y-4 divide-zinc-500 bg-red-50">
+        <div></div>
+        <div></div>
+      </div>
+      <Timeline id={productId} delivery={true} />
       <Footer />
     </div>
   );
